@@ -68,7 +68,7 @@ if (zahl % 2 == 0) {
   console.log("Case 3: Die Zahl ist ungerade.");
 }
 ```
-> **Output: Case 1: Die Zahl ist gerade und grösser als 10.**
+> **Output: Case 2: Die Zahl ist gerade und nicht grösser als 10.**
 
 *Quizfrage: Welcher Output kommt, wenn man 15 als Zahl vorgibt?*
 <details>
