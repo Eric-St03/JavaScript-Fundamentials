@@ -1,6 +1,7 @@
 # Einführung in Bedingungen in JavaScript
 
 Hier möchten wir anschauen, was Bedingungen sind in JavaScript, wozu man sie einsetzen kann und was für verschiedene Arten es gibt. 
+<br><br>
 
 ## Bedingungen
 
@@ -23,10 +24,15 @@ Was man hier jetzt gesagt hat, ist: Die Zahl ist **5**. Wenn die Zahl **grösser
 
 Eine solche Bedingung ist auch als Wenn->Dann... Bedingung bekannt. 
 
+[<kbd> <br> Austesten <br> </kbd>][LinkIf]
+
+[LinkIf]: https://www.w3schools.com/js/tryit.asp?filename=tryjs_ifthen '(w3schools.com) Try out: if'
+
 ### Bedingungsparameter
 Die Bedingung, welche ein Element/Statement erfüllen muss befindet sich in den **Klammern ()** nach dem if. Darin kann man mit allem arbeiten, was ein **true/false Ergebnis** ausgibt, sprich man kann mit Vergleichsoperatoren oder logischen Operatoren oder anderen Funktionen mit einem booleschen Output arbeiten. 
 
 Mit && oder || kann man auch Bedingungen durch "und/oder" verknüpfen.
+<br><br>
 
 ## if-else-Bedingung
 Man kann das nun weiter führen und eine if-esle-Bediungung machen. Das heisst, man Code aus, wenn eine Bedingung nicht zutrifft. 
@@ -44,6 +50,11 @@ if (zahl > 2) {
 > **Output: Die Zahl ist maximal 2.**
 
 Hier sagt man folgendes: Die Zahl ist 1. Wenn die Zahl **grösser ist als zwei**, dann führe den ersten Anweisungsblock aus. Wenn die Zahl ***nicht* grösser ist als zwei**, führe den alternativen Anweisungsblock aus. 
+
+[<kbd> <br> Austesten <br> </kbd>][LinkIfElse]
+
+[LinkIfElse]: https://www.w3schools.com/js/tryit.asp?filename=tryjs_ifthenelse '(w3schools.com) Try out: if else'
+<br>
 
 ## Verschachtelte Bedingungen
 Man kann Bedingungen innerhalb von anderen Bedingungen festlegen. Diese Bedingungen müssen jedoch auch beide erfüllt sein, damit die Anweisungen der zweiten Bedingung ausgeführt werden. 
@@ -76,6 +87,7 @@ if (zahl % 2 == 0) {
     <i>Case 3: Die Zahl ist ungerade.</i><br>
     Dies ist, weil nur geprüft wird, ob die Zahl grösser als 10 ist, wenn sie gerade ist. Ansonsten müsste man im else-Statement ebenfalls noch eine Bedingung einfügen. 
 </details>
+<br><br>
 
 ## Mehrstufige if-else-Bedingungen
 Es ist auch möglich, mehrere Bedingungen abzufragen. Dies kann man erzielen durch ein "else if"-Statement. 
@@ -98,6 +110,12 @@ if (zahl > 5) {
 Hier geht folgendes von statten: Die Zahl ist 5. **Wenn** die Zahl grösser ist als 5, **dann** Case 1. **Wenn nicht, aber** die Zahl kleiner als 5 ist, **dann** Case 2. **Wenn auch nicht**, **dann** Case 3.
 
 Else-if-Statements kann man beliebig of hintereinander ketten. Zu beachten ist dabei nur, dass eine Bedingung nicht mehr geprüft wird, sobald eine obere sich als wahr herausgestellt hat, auch wenn sie wahr sein könnte. 
+
+[<kbd> <br> Austesten <br> </kbd>][LinkElseIf]
+
+[LinkElseIf]: https://www.w3schools.com/js/tryit.asp?filename=tryjs_elseif '(w3schools.com) Try out: else if'
+
+<br>
 
 Man kann auch mehrere einfach if-Bedingungen aneinanderreihen. Hier werden jedoch alle Anweisungen, für welche Statements die Bedingungen erfüllen, ausgeführt. Ausserdem reagiert das else nur auf das letzte if. Alleinstehende else darf es nicht mehr als eines geben. 
 
