@@ -9,3 +9,4 @@ Current chapters available:
     * [Bedingungen](kp-3-kontrollstrukturen/bedingungen.md)
     * [Switch-Case](kp-3-kontrollstrukturen/switch-case.md)
     * [Schleifen](kp-3-kontrollstrukturen/schleifen.md)
+    * [Übungs-Aufgabe](kp-3-kontrollstrukturen/uebungs-aufgabe.md)
