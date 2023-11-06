@@ -10,3 +10,5 @@ Die Übungsdatei findest du hier: [fizzbuzz.html](aufgabe/fizzbuzz.html)
 
 ### Bonus-Aufgabe (optional)
 Erweitere deinen Code, um die Werte der Zahlen, durch die geteilt werden soll, dynamisch von den im HTML-Text angezeigten Werten zu lesen. Dadurch kannst du die Werte der Zahlen ändern, ohne den Code zu bearbeiten.
+
+Die Lösungen findest du hier. [Lösungen](aufgabe/loesung.md)
