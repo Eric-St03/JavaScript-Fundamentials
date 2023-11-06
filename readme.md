@@ -8,3 +8,4 @@ Current chapters available:
     * [Programmaufbau](kp-3-kontrollstrukturen/programmaufbau.md)
     * [Bedingungen](kp-3-kontrollstrukturen/bedingungen.md)
     * [Switch-Case](kp-3-kontrollstrukturen/switch-case.md)
+    * [Schleifen](kp-3-kontrollstrukturen/schleifen.md)
