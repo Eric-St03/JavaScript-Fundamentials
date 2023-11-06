@@ -129,3 +129,55 @@ In diesem Beispiel haben wir ein Array namens `begriffe`, das Früchten entspric
 [<kbd> <br> Austesten <br> </kbd>][LinkArrayLoop]
 
 [LinkArrayLoop]: https://www.w3schools.com/js/tryit.asp?filename=tryjs_loop_while_cars '(w3schools.com) Try out: Loop with Array'
+<br>
+
+## Die Sprunganweisungen `break` und `continue`
+Die `break`- und `continue`-Anweisungen ermöglichen es, eine Schleife oder einen Durchlauf innerhalb einer Schleife vorzeitig zu beenden. Aufgrund ihrer Fähigkeit, die normale Abfolge der Schleife zu unterbrechen, werden sie als Sprunganweisungen bezeichnet.
+
+### `break`
+Die `break`-Anweisung wird verwendet, um eine Schleife sofort zu beenden, unabhängig von der Schleifenbedingung. Dies ist nützlich, wenn Sie in einer Schleife eine bestimmte Bedingung erfüllen und die Schleife sofort verlassen möchten.
+
+``` JavaScript
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) {
+    console.log("Schleife wurde bei i = 3 unterbrochen.");
+    break;
+  }
+  console.log("Aktueller Wert von i: " + i);
+}
+```
+> **Output:**
+> - Aktueller Wert von i: 1
+> - Aktueller Wert von i: 2
+
+In diesem Beispiel wird die Schleife bei i gleich 3 unterbrochen.
+
+[<kbd> <br> Austesten <br> </kbd>][LinkBreak]
+
+[LinkBreak]: https://www.w3schools.com/js/tryit.asp?filename=tryjs_break '(w3schools.com) Try out: break'
+<br>
+
+### `continue`
+Die `continue`-Anweisung wird verwendet, um den aktuellen Schleifendurchlauf zu überspringen und zum nächsten Durchlauf zu springen. Dies ist hilfreich, wenn Sie in einer Schleife bestimmte Bedingungen haben, bei denen Sie den aktuellen Schleifendurchlauf überspringen möchten.
+
+``` JavaScript
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) {
+    console.log("Schleifendurchlauf bei i = 3 übersprungen.");
+    continue;
+  }
+  console.log("Aktueller Wert von i: " + i);
+}
+```
+> **Output:**
+> - Aktueller Wert von i: 1
+> - Aktueller Wert von i: 2
+> - Aktueller Wert von i: 4
+> - Aktueller Wert von i: 5
+
+In diesem Beispiel wird der Schleifendurchlauf bei i gleich 3 übersprungen, und die Ausgabe zeigt die Werte für i für die verbleibenden Durchläufe.
+
+[<kbd> <br> Austesten <br> </kbd>][LinkContinue]
+
+[LinkContinue]: https://www.w3schools.com/js/tryit.asp?filename=tryjs_continue '(w3schools.com) Try out: continue'
+<br>
