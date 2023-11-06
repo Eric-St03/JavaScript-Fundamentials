@@ -4,7 +4,7 @@ JavaScript ist eine Programmiersprache, die es uns ermöglicht, wiederholte Aufg
 
 ## Die for-Schleife
 
-Die `for`-Schleife ist eine häufig verwendete Schleife, wenn wir wissen, wie oft eine bestimmte Aufgabe wiederholt werden soll. Sie besteht aus drei Hauptteilen:
+Die `for`-Schleife ist eine häufig verwendete Schleife, wenn wir wissen, wie oft eine bestimmte Aufgabe wiederholt werden soll. Man nennt eine solche Schleife ***"Zählergesteuert"***. Sie besteht aus drei Hauptteilen:
 
 ``` JavaScript
 for (initialisierung; bedingung; veränderung) {
@@ -41,7 +41,7 @@ Dieser Code wird 5-mal ausgeführt und es wird "Dies ist die 1. Wiederholung." b
 <br>
 
 ## Die while-Schleife
-Die `while`-Schleife wird verwendet, wenn wir nicht im Voraus wissen, wie oft die Schleife wiederholt werden soll. Sie besteht aus einer Bedingung, und solange diese wahr ist, wird der Schleifenblock ausgeführt.
+Die `while`-Schleife wird verwendet, wenn wir nicht im Voraus wissen, wie oft die Schleife wiederholt werden soll. Sie besteht aus einer Bedingung, und solange diese wahr ist, wird der Schleifenblock ausgeführt. Man nennt eine solche Schleife auch ***"Kopfgesteuert"***.
 
 ``` JavaScript
 while (bedingung) {
@@ -73,7 +73,7 @@ Dieser Code erzielt das gleiche Ergebnis wie das vorherige for-Schleifenbeispiel
 <br>
 
 ## Die do-while-Scheife
-Die `do-while`-Schleife ist eine Unterart der `while`-Schleife in JavaScript. Im Gegensatz zur `for`- und `while`-Schleife wird der Schleifenblock bei der `do-while`-Schleife immer mindestens einmal ausgeführt, bevor die Bedingung überprüft wird. Das bedeutet, dass selbst wenn die Bedingung von Anfang an falsch ist, der Schleifenblock einmal ausgeführt wird.
+Die `do-while`-Schleife ist eine Unterart der `while`-Schleife in JavaScript. Im Gegensatz zur `for`- und `while`-Schleife wird der Schleifenblock bei der `do-while`-Schleife immer mindestens einmal ausgeführt, bevor die Bedingung überprüft wird. Das bedeutet, dass selbst wenn die Bedingung von Anfang an falsch ist, der Schleifenblock einmal ausgeführt wird. Man nennt eine solche Schleife auch ***"Fussgesteuert"***.
 
 Hier ist die grundlegende Struktur der `do-while`-Schleife: 
 
